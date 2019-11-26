@@ -14,12 +14,18 @@ public class animatorClick : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             
             Debug.Log("mouse clicked");
             anim.SetTrigger("Active");
            
+        }
+
+        else if (Input.GetMouseButtonUp(0))
+        {
+            Debug.Log("mouse up");
+            anim.SetTrigger("Inactive");
         }
     }
 }
