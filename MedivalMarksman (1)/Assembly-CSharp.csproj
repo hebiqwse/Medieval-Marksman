@@ -55,7 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts - Camera Control\Aim.cs" />
+     <Compile Include="Assets\Scripts - Camera Control\Arrow.cs" />
+     <Compile Include="Assets\Scripts - Camera Control\ArrowShooter.cs" />
      <Compile Include="Assets\Scripts - Camera Control\Camera_Control.cs" />
+     <Compile Include="Assets\Scripts - Camera Control\MoveTarget.cs" />
      <Compile Include="Assets\Scripts - UI\animatorClick.cs" />
      <Compile Include="Assets\Scripts - UI\arrow.cs" />
      <Compile Include="Assets\Scripts - UI\ChangeScene.cs" />
