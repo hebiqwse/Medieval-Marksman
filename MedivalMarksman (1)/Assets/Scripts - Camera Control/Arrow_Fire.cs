@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arrow : MonoBehaviour
+public class Arrow_Fire : MonoBehaviour
 {
     Rigidbody rb;
     // Start is called before the first frame update

@@ -8,7 +8,7 @@ public class ArrowShooter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        arrowPrefab = Resources.Load("Arrow") as GameObject;
+        arrowPrefab = Resources.Load("M_StoneArrow") as GameObject;
         
     }
 
