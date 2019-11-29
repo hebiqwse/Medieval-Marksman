@@ -20,7 +20,7 @@ public class ArrowShooter : MonoBehaviour
             GameObject newArrow = Instantiate(arrowPrefab) as GameObject;
             newArrow.transform.position = transform.position;
             Rigidbody rb = newArrow.GetComponent<Rigidbody>();
-            rb.velocity = Camera.main.transform.forward * 30;
+            rb.velocity = Camera.main.transform.forward * 20;
         }
         
     }
