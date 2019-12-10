@@ -62,13 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Resources\arrow.cs" />
-    <Compile Include="Assets\Resources\Arrow_Fire.cs" />
     <Compile Include="Assets\Scripts - Camera Control\Aim.cs" />
+    <Compile Include="Assets\Scripts - Camera Control\Arrow_Fire.cs" />
     <Compile Include="Assets\Scripts - Camera Control\ArrowShooter.cs" />
     <Compile Include="Assets\Scripts - Camera Control\Camera_Control.cs" />
     <Compile Include="Assets\Scripts - Camera Control\MoveTarget.cs" />
     <Compile Include="Assets\Scripts - UI\animatorClick.cs" />
+    <Compile Include="Assets\Scripts - UI\arrow.cs" />
     <Compile Include="Assets\Scripts - UI\ChangeScene.cs" />
     <Compile Include="Assets\Scripts - UI\gravity.cs" />
     <Compile Include="Assets\Scripts - UI\MainMenu.cs" />
