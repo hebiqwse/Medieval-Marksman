@@ -5,17 +5,38 @@ using UnityEngine;
 public class Arrow_Fire : MonoBehaviour
 {
     Rigidbody rb;
-    // Start is called before the first frame update
+    public bool hitSomething;
+ 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        
+        transform.rotation = Quaternion.LookRotation(rb.velocity);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.LookRotation(rb.velocity);
+       
+        if (!hitSomething)
+        {
+            transform.rotation = Quaternion.LookRotation(rb.velocity);
+           
+        }
         
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag != "arrow")
+        {
+            hitSomething = true;
+            stick();
+        }
+    }
+
+    public void stick()
+    {
+        rb.constraints = RigidbodyConstraints.FreezeAll;
+    }
 }
+

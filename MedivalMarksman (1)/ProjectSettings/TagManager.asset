@@ -6,6 +6,8 @@ TagManager:
   tags:
   - windArea
   - Music
+  - Terrain
+  - arrow
   layers:
   - Default
   - TransparentFX

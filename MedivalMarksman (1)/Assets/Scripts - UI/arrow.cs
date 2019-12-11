@@ -14,7 +14,7 @@ public class arrow : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-  private  void FixedUpdate()
+  private void FixedUpdate()
     {
         if (inWindZone)
         {

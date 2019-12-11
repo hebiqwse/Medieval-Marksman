@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1892274348190810542}
   - component: {fileID: 5589420452895312846}
   m_Layer: 0
-  m_Name: P_StoneArrow (1)
+  m_Name: P_StoneArrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6073076286130207352}
-  m_LocalRotation: {x: -1.1438182e-14, y: 1, z: -0.000000021855694, w: -0.00000052054855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 31.160769, y: 12.749213, z: -6.279067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -112,8 +112,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.040956475, y: 0.048985813, z: 0.13445376}
-  m_Center: {x: -0.00002937764, y: 0.0038611516, z: 0.31493175}
+  m_Size: {x: 0.040956475, y: 0.05915869, z: 0.76040685}
+  m_Center: {x: -0.00002937764, y: -0.001225289, z: 0.0019552112}
 --- !u!114 &1892274348190810542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aa8758d3fb55b546894eca0b61b2afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSomething: 0
 --- !u!114 &5589420452895312846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,4 +140,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inWindZone: 1
-  windZone: {fileID: 0}
+  windZone: {fileID: 7205283168128080020, guid: 9383d6eb0523e164a94e0f1ea3bd7d40,
+    type: 3}
