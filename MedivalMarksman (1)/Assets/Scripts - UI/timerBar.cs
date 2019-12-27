@@ -11,6 +11,8 @@ public class timerBar : MonoBehaviour
     private float gameTimer;
     private bool gamePaused = false;
     float timeLeft;
+
+    public Text countdown;
   
  
     void Start()
@@ -29,7 +31,8 @@ public class timerBar : MonoBehaviour
     void Update()
 
     {
-       
+
+        countdown.text = ("" + (int)timeLeft);
 
         if (timeLeft > 0)
         {

@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts - UI\pauseMenu.cs" />
     <Compile Include="Assets\Scripts - UI\quitScript.cs" />
     <Compile Include="Assets\Scripts - UI\ScoreCounterText.cs" />
+    <Compile Include="Assets\Scripts - UI\shoot.cs" />
     <Compile Include="Assets\Scripts - UI\timerBar.cs" />
     <Compile Include="Assets\Scripts - UI\Volume.cs" />
     <Compile Include="Assets\Scripts - UI\windArea.cs" />

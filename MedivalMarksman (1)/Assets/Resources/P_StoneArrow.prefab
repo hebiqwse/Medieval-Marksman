@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 608397393595905619}
   - component: {fileID: 6095504793131976128}
   - component: {fileID: 7066604147715838263}
-  - component: {fileID: 4661995747954871613}
   - component: {fileID: 6610278534038827300}
   - component: {fileID: 1892274348190810542}
   - component: {fileID: 5589420452895312846}
+  - component: {fileID: 7019873369932145871}
+  - component: {fileID: -9214289509291293920}
   m_Layer: 0
   m_Name: P_StoneArrow
   m_TagString: Untagged
@@ -85,22 +86,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!54 &4661995747954871613
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6073076286130207352}
-  serializedVersion: 2
-  m_Mass: 2.17
-  m_Drag: 0.17
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &6610278534038827300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -112,8 +97,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.040956475, y: 0.05915869, z: 0.76040685}
-  m_Center: {x: -0.00002937764, y: -0.001225289, z: 0.0019552112}
+  m_Size: {x: 0.03024292, y: 0.023190498, z: 0.6027136}
+  m_Center: {x: -0.0026016235, y: -0.0013518333, z: 0.03976965}
 --- !u!114 &1892274348190810542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,3 +127,37 @@ MonoBehaviour:
   inWindZone: 1
   windZone: {fileID: 7205283168128080020, guid: 9383d6eb0523e164a94e0f1ea3bd7d40,
     type: 3}
+--- !u!114 &7019873369932145871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073076286130207352}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9218cde4c6d510e46a7bb05afcd87b37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pullSpeed: 0.1
+  arrowPrefab: {fileID: 6073076286130207352}
+  arrow: {fileID: 0}
+  numofArrows: 10
+  bow: {fileID: 2856970153707610255, guid: cd89beec1217ef6459bc29117c5fe510, type: 3}
+  bowTopEnd: {fileID: 0}
+--- !u!54 &-9214289509291293920
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073076286130207352}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

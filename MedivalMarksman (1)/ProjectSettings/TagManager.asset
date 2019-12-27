@@ -8,6 +8,7 @@ TagManager:
   - Music
   - Terrain
   - arrow
+  - bow
   layers:
   - Default
   - TransparentFX
