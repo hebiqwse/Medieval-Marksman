@@ -9,6 +9,8 @@ TagManager:
   - Terrain
   - arrow
   - bow
+  - head
+  - torso
   layers:
   - Default
   - TransparentFX

@@ -29,6 +29,19 @@ public class Arrow_Fire : MonoBehaviour
     {
         if (collision.collider.tag != "arrow")
         {
+       
+                hitSomething = true;
+                stick();
+
+        }
+
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if ((other.tag == "head") || (other.tag == "torso"))
+        {
             hitSomething = true;
             stick();
         }

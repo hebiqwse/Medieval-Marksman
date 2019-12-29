@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 6610278534038827300}
   - component: {fileID: 1892274348190810542}
   - component: {fileID: 5589420452895312846}
-  - component: {fileID: 7019873369932145871}
   - component: {fileID: -9214289509291293920}
+  - component: {fileID: -3753748146188265355}
   m_Layer: 0
   m_Name: P_StoneArrow
   m_TagString: Untagged
@@ -127,24 +127,6 @@ MonoBehaviour:
   inWindZone: 1
   windZone: {fileID: 7205283168128080020, guid: 9383d6eb0523e164a94e0f1ea3bd7d40,
     type: 3}
---- !u!114 &7019873369932145871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6073076286130207352}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9218cde4c6d510e46a7bb05afcd87b37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pullSpeed: 0.1
-  arrowPrefab: {fileID: 6073076286130207352}
-  arrow: {fileID: 0}
-  numofArrows: 10
-  bow: {fileID: 2856970153707610255, guid: cd89beec1217ef6459bc29117c5fe510, type: 3}
-  bowTopEnd: {fileID: 0}
 --- !u!54 &-9214289509291293920
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -161,3 +143,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-3753748146188265355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073076286130207352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc33058714f7be4dae08d62a6c940a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
