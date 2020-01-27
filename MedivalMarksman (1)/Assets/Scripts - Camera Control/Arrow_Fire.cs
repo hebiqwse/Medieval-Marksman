@@ -10,7 +10,7 @@ public class Arrow_Fire : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        transform.rotation = Quaternion.LookRotation(rb.velocity);
+       
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class Arrow_Fire : MonoBehaviour
        
         if (!hitSomething)
         {
-            transform.rotation = Quaternion.LookRotation(rb.velocity);
+      // transform.rotation = Quaternion.LookRotation(rb.velocity);
            
         }
         
