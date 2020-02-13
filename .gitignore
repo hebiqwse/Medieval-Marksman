@@ -28,7 +28,7 @@ _ReSharper*/
 *.DotSettings.user
 
 # ### Unity ignores ###
-**/[Ll]ibrary/**
+MedievalMarksman\ (1)/[Ll]ibrary/
 ./[Tt]emp/
 ./[Oo]bj/
 ./[Bb]uild/
