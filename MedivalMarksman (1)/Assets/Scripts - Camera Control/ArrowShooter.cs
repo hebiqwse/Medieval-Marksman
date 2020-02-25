@@ -59,8 +59,8 @@ public class ArrowShooter : MonoBehaviour
                 {
                     pullspeed *= -1;
                 }
-  
-                  
+
+
                 Debug.Log(pulldown);
             }
 
@@ -82,10 +82,11 @@ public class ArrowShooter : MonoBehaviour
                 pulldown = 0;
                  _arrowproject.enabled = true;
 
-                if (numofArrows <= 0)
+                if (numofArrows == 0)
                 {
                     SceneManager.LoadScene("GameOver");
                 }
+
             }
            
 

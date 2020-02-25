@@ -29,7 +29,7 @@ public class Arrow_Fire : MonoBehaviour
     {
         if (collision.collider.tag != "arrow")
         {
-       
+        
                 hitSomething = true;
                 stick();
 
@@ -43,6 +43,7 @@ public class Arrow_Fire : MonoBehaviour
         if ((other.tag == "head") || (other.tag == "torso"))
         {
             hitSomething = true;
+            rb.transform.SetParent(other.transform.parent);
             stick();
         }
     }
@@ -50,6 +51,8 @@ public class Arrow_Fire : MonoBehaviour
     public void stick()
     {
         rb.constraints = RigidbodyConstraints.FreezeAll;
+        
+      
     }
 }
 
