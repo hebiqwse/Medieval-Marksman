@@ -3,6 +3,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.log
+*.json
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -28,7 +30,7 @@ _ReSharper*/
 *.DotSettings.user
 
 # ### Unity ignores ###
-[Ll]ibrary
+*/[Ll]ibrary/*
 [Tt]emp
 [Oo]bj
 [Bb]uild
