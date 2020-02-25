@@ -28,4 +28,11 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene("Menu");
         ScoreCounterText.itemAmount = 0;
     }
+
+    //Added by Freya Smith
+    public void levelClear()
+    {
+        SceneManager.LoadScene("LevelClear");
+        ScoreCounterText.itemAmount = 0;
+    }
 }

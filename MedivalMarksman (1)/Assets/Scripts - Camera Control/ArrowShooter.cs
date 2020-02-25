@@ -51,8 +51,17 @@ public class ArrowShooter : MonoBehaviour
 
             if (Input.GetMouseButton(0))
             {
+
+             
                 pulldown += Time.deltaTime * pullspeed;
-              
+                
+                if (pulldown >= 4000 || pulldown <= 0)
+                {
+                    pullspeed *= -1;
+                }
+  
+                  
+                Debug.Log(pulldown);
             }
 
             if (Input.GetMouseButtonUp(0))
@@ -73,7 +82,7 @@ public class ArrowShooter : MonoBehaviour
                 pulldown = 0;
                  _arrowproject.enabled = true;
 
-                if (numofArrows == 0)
+                if (numofArrows < 0)
                 {
                     SceneManager.LoadScene("GameOver");
                 }

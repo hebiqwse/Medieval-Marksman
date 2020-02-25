@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75ec43dadfa86fd40b92f5dbe0e286a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inWindZone: 1
+  inWindZone: 0
   windZone: {fileID: 7205283168128080020, guid: 9383d6eb0523e164a94e0f1ea3bd7d40,
     type: 3}
 --- !u!54 &1909728858467919550
