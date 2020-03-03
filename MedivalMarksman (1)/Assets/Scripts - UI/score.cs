@@ -8,13 +8,10 @@ public class score : MonoBehaviour
    static public int currentScore;
     
     Text scoreText;
-
-
    
     void Start()
     {
         scoreText = GetComponent<Text>();
-     
     }
 
 
@@ -22,4 +19,5 @@ public class score : MonoBehaviour
     {
         scoreText.text = currentScore.ToString();
     }
+
 }
