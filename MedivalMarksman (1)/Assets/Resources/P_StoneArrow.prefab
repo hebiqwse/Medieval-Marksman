@@ -17,6 +17,8 @@ GameObject:
   - component: {fileID: -9214289509291293920}
   - component: {fileID: -3753748146188265355}
   - component: {fileID: -3002720277315240938}
+  - component: {fileID: -203447546007044041}
+  - component: {fileID: -2019831315707309348}
   m_Layer: 0
   m_Name: P_StoneArrow
   m_TagString: Untagged
@@ -32,7 +34,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6073076286130207352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.160769, y: 12.749213, z: -6.279067}
+  m_LocalPosition: {x: 31.160769, y: 12.749213, z: -6.295987}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -169,3 +171,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootforce: 20
+--- !u!95 &-203447546007044041
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073076286130207352}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0285f32bb1b15354399f8a8a745e6913, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-2019831315707309348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6073076286130207352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee65593b20d91444b30fe2f0d4dba5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

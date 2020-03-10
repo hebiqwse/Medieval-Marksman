@@ -9,14 +9,14 @@ public class animatorClick : MonoBehaviour
     
     void Start()
     {
-        anim = gameObject.GetComponent<Animator>();    
+         anim = gameObject.GetComponent<Animator>();    
     }
     
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            
+           
             Debug.Log("mouse clicked");
             anim.SetTrigger("Active");
            
@@ -26,6 +26,8 @@ public class animatorClick : MonoBehaviour
         {
             Debug.Log("mouse up");
             anim.SetTrigger("Inactive");
+            
+         
         }
     }
 }

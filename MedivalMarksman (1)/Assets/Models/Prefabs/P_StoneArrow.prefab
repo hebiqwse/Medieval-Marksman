@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1909728858467919550}
   - component: {fileID: 5857209727749307883}
   - component: {fileID: 5545282531036518792}
+  - component: {fileID: -4908939105973408904}
   m_Layer: 0
   m_Name: P_StoneArrow
   m_TagString: arrow
@@ -166,3 +167,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootforce: 2000
+--- !u!114 &-4908939105973408904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5685542128419921894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee65593b20d91444b30fe2f0d4dba5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrow: {fileID: 6073076286130207352, guid: a556c56bb18bccf4b8938845c193edff, type: 3}
+  pullSpeed: 1
