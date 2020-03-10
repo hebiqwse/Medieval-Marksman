@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class scorePoints : MonoBehaviour
 {
@@ -27,8 +28,8 @@ public class scorePoints : MonoBehaviour
     {
         if (score.currentScore >= 100)
         {
-           //Does not work
-           //ChangeScene.levelClear();
+           //If the score is higher thant 100, load the level clear screen
+           SceneManager.LoadScene("LevelClear");
         }
     }
 }
