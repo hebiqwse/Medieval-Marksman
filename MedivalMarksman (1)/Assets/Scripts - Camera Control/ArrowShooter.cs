@@ -13,7 +13,7 @@ public class ArrowShooter : MonoBehaviour
     [SerializeField]
     GameObject arrowPrefab;
     public float speed;
-
+    Animator anim;
     public float pulldown;
     public float pullspeed;
     // Start is called before the first frame update
@@ -37,7 +37,7 @@ public class ArrowShooter : MonoBehaviour
                 arrowSlotted = true;
                 arrow = Instantiate(arrowPrefab,transform.position, transform.rotation) as GameObject;
                 arrow.transform.parent = transform;
-                
+               
             }
         }
     void shootLogic()
@@ -76,13 +76,13 @@ public class ArrowShooter : MonoBehaviour
                 arrowSlotted = false;
                 arrowrb.isKinematic = false;
                 arrow.transform.parent = null;
-               
+                Destroy(arrow.GetComponent<Animator>());
                 _arrowproject.shootforce = _arrowproject.shootforce * ((pulldown/100) +1f);
                  numofArrows -= 1;
                 pulldown = 0;
                  _arrowproject.enabled = true;
 
-                if (numofArrows == 0)
+                if (numofArrows == 0 && arrowSlotted == true)
                 {
                     SceneManager.LoadScene("GameOver");
                 }
