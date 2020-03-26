@@ -22,6 +22,18 @@ public class scorePoints : MonoBehaviour
             score.currentScore += 5;
             ScoreCheck();
         }
+
+        if (collider.tag == "head2")
+        {
+            score.currentScore += 15;
+            ScoreCheck();
+        }
+
+        if (collider.tag == "torso2")
+        {
+            score.currentScore += 30;
+            ScoreCheck();
+        }
     }
 
     void ScoreCheck()

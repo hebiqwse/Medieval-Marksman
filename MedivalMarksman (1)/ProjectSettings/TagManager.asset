@@ -11,6 +11,9 @@ TagManager:
   - bow
   - head
   - torso
+  - Fire
+  - head2
+  - torso2
   layers:
   - Default
   - TransparentFX

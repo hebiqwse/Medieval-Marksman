@@ -46,6 +46,13 @@ public class Arrow_Fire : MonoBehaviour
             rb.transform.SetParent(other.transform.parent);
             stick();
         }
+
+        if ((other.tag == "head2") || (other.tag == "torso2"))
+        {
+            hitSomething = true;
+            rb.transform.SetParent(other.transform.parent);
+            stick();
+        }
     }
 
     public void stick()
