@@ -25,7 +25,7 @@ public class ChangeScene : MonoBehaviour
 
     public void mainMenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
         ScoreCounterText.itemAmount = 0;
     }
 
