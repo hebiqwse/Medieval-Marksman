@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using Sounds;
 
 public class soundManagerScript : MonoBehaviour
 {
@@ -11,10 +12,10 @@ public class soundManagerScript : MonoBehaviour
     void Start()
     {
         //Loads sound values to the variables
-        cheerSound = Sounds.Load<AudioClip>("cheer");
-        clickSound = Sounds.Load<AudioClip>("click");
+        //cheerSound = Sounds.Load<AudioClip>("cheer");
+        //clickSound = Sounds.Load<AudioClip>("click");
 
-        audioSrc = GetComponent<AudioSource>();
+        //audioSrc = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,7 +24,7 @@ public class soundManagerScript : MonoBehaviour
         
     }
 
-    public static void PlaySound(string clip)
+    /*public static void PlaySound(string clip)
     {
         switch (clip)
         {
@@ -35,5 +36,5 @@ public class soundManagerScript : MonoBehaviour
                 break;
         }
     }
-
+    */
 }
