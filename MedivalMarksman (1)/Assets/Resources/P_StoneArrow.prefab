@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -3753748146188265355}
   - component: {fileID: -3002720277315240938}
   - component: {fileID: -203447546007044041}
-  - component: {fileID: -2019831315707309348}
+  - component: {fileID: -7262615761989878479}
   m_Layer: 0
   m_Name: P_StoneArrow
   m_TagString: Untagged
@@ -190,7 +190,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &-2019831315707309348
+--- !u!114 &-7262615761989878479
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

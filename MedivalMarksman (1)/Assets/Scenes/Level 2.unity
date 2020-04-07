@@ -1014,15 +1014,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6669743222601502801, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.258
+      objectReference: {fileID: 0}
+    - target: {fileID: 6669743222601502801, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.505
+      objectReference: {fileID: 0}
     - target: {fileID: 6669743222601502800, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: pullspeed
       value: 3000
       objectReference: {fileID: 0}
+    - target: {fileID: 6669743222601502800, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: numofArrows
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8102451621478875563, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: shootforce
       value: 2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6559691369631792522, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2533582192438986292, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1870406517740155736, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}

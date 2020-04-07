@@ -11328,6 +11328,16 @@ PrefabInstance:
       propertyPath: m_TurnSpeed
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6669743224539111259, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_LockCursor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4401002490883653772, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7444522732678010090, guid: f91aed8dedbfed54c8e65ec6179b787d, type: 3}
     - {fileID: 2533582192438986292, guid: f91aed8dedbfed54c8e65ec6179b787d, type: 3}

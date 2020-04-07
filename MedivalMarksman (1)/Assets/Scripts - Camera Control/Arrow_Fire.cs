@@ -29,8 +29,8 @@ public class Arrow_Fire : MonoBehaviour
     {
         if (collision.collider.tag != "arrow")
         {
-        
-                hitSomething = true;
+          
+            hitSomething = true;
                 stick();
 
         }

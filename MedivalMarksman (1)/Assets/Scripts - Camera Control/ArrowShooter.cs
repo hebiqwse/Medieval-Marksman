@@ -19,7 +19,7 @@ public class ArrowShooter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
         spawnArrow();
     }
 
@@ -31,7 +31,7 @@ public class ArrowShooter : MonoBehaviour
     }
     void spawnArrow()
         {
-            if (numofArrows> 0)
+            if (numofArrows >= 0)
             {
             Transform camT = Camera.main.transform;
                 arrowSlotted = true;
@@ -39,7 +39,12 @@ public class ArrowShooter : MonoBehaviour
                 arrow.transform.parent = transform;
                
             }
+
+        if (numofArrows < 0)
+        {
+            SceneManager.LoadScene("GameOver");
         }
+    }
     void shootLogic()
     {
         if (numofArrows > 0)
@@ -78,14 +83,11 @@ public class ArrowShooter : MonoBehaviour
                 arrow.transform.parent = null;
                 Destroy(arrow.GetComponent<Animator>());
                 _arrowproject.shootforce = _arrowproject.shootforce * ((pulldown/100) +1f);
-                 numofArrows -= 1;
+                 numofArrows--;
                 pulldown = 0;
                  _arrowproject.enabled = true;
 
-                if (numofArrows == 0 && arrowSlotted == true)
-                {
-                    SceneManager.LoadScene("GameOver");
-                }
+               
 
             }
            

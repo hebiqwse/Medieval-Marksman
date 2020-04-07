@@ -17,10 +17,10 @@ public class arrowAnimator : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-
+          //  anim.enabled = true;
             Debug.Log("mouse clicked");
             anim.SetTrigger("Active");
-            anim.enabled = true;
+            
 
         }
 
@@ -29,7 +29,7 @@ public class arrowAnimator : MonoBehaviour
 
             Debug.Log("mouse up");
             anim.SetTrigger("Inactive");
-            Destroy(anim);
+        //    anim.enabled = false;
 
         }
     }
