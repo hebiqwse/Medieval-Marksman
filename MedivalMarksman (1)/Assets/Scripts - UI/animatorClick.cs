@@ -16,16 +16,38 @@ public class animatorClick : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+<<<<<<< Updated upstream
             
             Debug.Log("mouse clicked");
             anim.SetTrigger("Active");
            
+=======
+            if (anim != null)
+            {
+                Debug.Log("mouse clicked");
+                anim.SetTrigger("Active");
+            }
+
+            else
+            return;
+>>>>>>> Stashed changes
         }
 
         else if (Input.GetMouseButtonUp(0))
         {
+<<<<<<< Updated upstream
             Debug.Log("mouse up");
             anim.SetTrigger("Inactive");
+=======
+            if (anim != null)
+            {
+                Debug.Log("mouse up");
+                anim.SetTrigger("Inactive");
+            }
+            else
+            return;
+         
+>>>>>>> Stashed changes
         }
     }
 }
