@@ -110,6 +110,16 @@ namespace UnityStandardAssets.Cameras
 				m_Pivot.localRotation = m_PivotTargetRot;
 				transform.localRotation = m_TransformTargetRot;
 			}
+
+            if (m_LookAngle >= 90)
+            {
+                m_LookAngle = 90;
+            }
+
+            if(m_LookAngle <= -90)
+            {
+                m_LookAngle = -90;
+            }
         }
     }
 }
