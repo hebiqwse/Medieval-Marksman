@@ -8,13 +8,13 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        //soundManagerScript.PlaySound("click");
+        SoundManagerScript.PlaySound("click");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);  
     }
 
     public void quitGame()
     {
-        //soundManagerScript.PlaySound("click");
+        SoundManagerScript.PlaySound("click");
         Application.Quit();
         Debug.Log("you have quit"); 
     }
