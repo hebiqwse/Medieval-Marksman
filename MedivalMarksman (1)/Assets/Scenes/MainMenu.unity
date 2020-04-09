@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 338300035}
   - component: {fileID: 338300037}
   - component: {fileID: 338300036}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -198}
+  m_AnchoredPosition: {x: 5, y: -271}
   m_SizeDelta: {x: 580, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &421945921
@@ -1023,7 +1023,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 50}
+  m_AnchoredPosition: {x: 5, y: 46}
   m_SizeDelta: {x: 580, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &554530084
@@ -1163,7 +1163,7 @@ RectTransform:
   m_GameObject: {fileID: 583574353}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 554530083}
   - {fileID: 1864285264}
@@ -1174,7 +1174,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393, y: 172}
+  m_AnchoredPosition: {x: 410, y: 55}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &583574355
@@ -1223,7 +1223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 624094977}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: SettingsMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1237,9 +1237,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624094976}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.836046, y: 4.4509926, z: -725.1991}
-  m_LocalScale: {x: 7.8742585, y: 7.8742585, z: 7.8742585}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 415, y: -16, z: -442}
+  m_LocalScale: {x: 5.01425, y: 5.01425, z: 5.01425}
   m_Children:
   - {fileID: 38535152}
   - {fileID: 540015484}
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 636884529}
   - component: {fileID: 636884531}
   - component: {fileID: 636884530}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1396,14 +1396,14 @@ RectTransform:
   m_GameObject: {fileID: 777745800}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8115381, y: 0.8115381, z: 0.8115381}
+  m_LocalScale: {x: 0.63397354, y: 0.6886679, z: 0.63397354}
   m_Children: []
   m_Father: {fileID: 782586399}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 337}
+  m_AnchoredPosition: {x: 418, y: 324}
   m_SizeDelta: {x: 1366, y: 271}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &777745802
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 896925365}
   - component: {fileID: 896925367}
   - component: {fileID: 896925366}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1662,7 +1662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 914150270}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2083,7 +2083,7 @@ GameObject:
   - component: {fileID: 1075057602}
   - component: {fileID: 1075057604}
   - component: {fileID: 1075057603}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2180,7 +2180,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -324}
+  m_AnchoredPosition: {x: 5, y: -440}
   m_SizeDelta: {x: 580, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114381900
@@ -2492,7 +2492,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -70}
+  m_AnchoredPosition: {x: 5, y: -122}
   m_SizeDelta: {x: 580, y: 85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864285265
@@ -2614,7 +2614,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1889595325}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
