@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
     //Initialise Sound variables
-    public static AudioClip cheerSound, clickSound;
+    public static AudioClip cheerSound, clickSound, bowFireSound;
     static AudioSource audioSrc;
     // Start is called before the first frame update
     void Start()
@@ -13,7 +13,7 @@ public class SoundManagerScript : MonoBehaviour
         //Loads sound values to the variables
         cheerSound = Resources.Load<AudioClip>("cheer");
         clickSound = Resources.Load<AudioClip>("click");
-
+        bowFireSound = Resources.Load<AudioClip>("bowFire");
         audioSrc = GetComponent<AudioSource>();
     }
 
@@ -32,6 +32,9 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "click":
                 audioSrc.PlayOneShot(clickSound);
+                break;
+            case "bowFire":
+                audioSrc.PlayOneShot(bowFireSound);
                 break;
         }
     }

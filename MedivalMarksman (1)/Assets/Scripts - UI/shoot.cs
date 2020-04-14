@@ -54,7 +54,9 @@ public class shoot : MonoBehaviour
            
             if (Input.GetMouseButton(0))
             {
+               
                 pullamount += Time.deltaTime * pullSpeed;
+                SoundManagerScript.PlaySound("bowFire");
                 bow.transform.Translate(0, -pullamount, 0);
                 
             }

@@ -52,8 +52,9 @@ public class scorePoints : MonoBehaviour
     {
         if (score.currentScore >= 100)
         {
-           //If the score is higher thant 100, load the level clear screen
-           SceneManager.LoadScene("LevelClear");
+            //If the score is higher thant 100, load the level clear screen
+            SoundManagerScript.PlaySound("cheer");
+            SceneManager.LoadScene("LevelClear");
             resetScore();
         }
     }
