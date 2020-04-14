@@ -13,13 +13,13 @@ public class scorePoints : MonoBehaviour
     {
         if (collider.tag == "head")
         {
-            score.currentScore += 10;
+            score.currentScore += 100;
             ScoreCheck();
         }
 
         if (collider.tag == "torso")
         {
-            score.currentScore += 5;
+            score.currentScore += 50;
             ScoreCheck();
         }
 
@@ -34,6 +34,18 @@ public class scorePoints : MonoBehaviour
             score.currentScore += 30;
             ScoreCheck();
         }
+
+        if (collider.tag == "AnimalHead")
+        {
+            score.currentScore -= 30;
+            ScoreCheck();
+        }
+
+        if (collider.tag == "AnimalTorso")
+        {
+            score.currentScore -= 15;
+            ScoreCheck();
+        }
     }
 
     void ScoreCheck()
@@ -42,6 +54,12 @@ public class scorePoints : MonoBehaviour
         {
            //If the score is higher thant 100, load the level clear screen
            SceneManager.LoadScene("LevelClear");
+            resetScore();
         }
+    }
+
+    void resetScore()
+    {
+        score.currentScore = 0;
     }
 }
