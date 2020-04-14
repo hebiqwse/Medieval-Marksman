@@ -13,13 +13,13 @@ public class scorePoints : MonoBehaviour
     {
         if (collider.tag == "head")
         {
-            score.currentScore += 100;
+            score.currentScore += 10;
             ScoreCheck();
         }
 
         if (collider.tag == "torso")
         {
-            score.currentScore += 50;
+            score.currentScore += 5;
             ScoreCheck();
         }
 
