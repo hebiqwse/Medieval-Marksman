@@ -28,6 +28,11 @@ public class ArrowShooter : MonoBehaviour
     {
         shootLogic();
 
+        if (numofArrows == 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+
     }
     void spawnArrow()
         {
@@ -40,10 +45,7 @@ public class ArrowShooter : MonoBehaviour
                
             }
 
-        if (numofArrows < 0)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
+        
     }
     void shootLogic()
     {
