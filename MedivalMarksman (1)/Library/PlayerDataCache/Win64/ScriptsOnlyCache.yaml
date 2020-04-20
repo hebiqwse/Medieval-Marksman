@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - Arrow_Fire
     - ChangeScene
     - MainMenu
+    - SoundManagerScript
     - Volume
     - addforce
     - animatorClick
@@ -87,11 +88,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10476}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11918}
+      Script: {instanceID: 11920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -135,6 +136,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -166,27 +169,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10452}
     - Class: 114
-      Script: {instanceID: 10798}
+      Script: {instanceID: 10494}
     - Class: 114
-      Script: {instanceID: 10884}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10996}
+      Script: {instanceID: 10886}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11166}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11292}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11736}
+    - Class: 114
+      Script: {instanceID: 11960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -239,15 +244,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10476}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11140}
+      Script: {instanceID: 11142}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11918}
+      Script: {instanceID: 11920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -340,37 +345,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10476}
     - Class: 114
-      Script: {instanceID: 10502}
+      Script: {instanceID: 10494}
     - Class: 114
-      Script: {instanceID: 10798}
+      Script: {instanceID: 10504}
     - Class: 114
-      Script: {instanceID: 10884}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10940}
+      Script: {instanceID: 10886}
     - Class: 114
-      Script: {instanceID: 10996}
+      Script: {instanceID: 10942}
     - Class: 114
-      Script: {instanceID: 11140}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11142}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11292}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11340}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 11918}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11920}
+    - Class: 114
+      Script: {instanceID: 11960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -473,31 +480,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10476}
     - Class: 114
-      Script: {instanceID: 10798}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10884}
+      Script: {instanceID: 10886}
     - Class: 114
-      Script: {instanceID: 10996}
+      Script: {instanceID: 10998}
     - Class: 114
-      Script: {instanceID: 11164}
+      Script: {instanceID: 11166}
     - Class: 114
-      Script: {instanceID: 11290}
+      Script: {instanceID: 11292}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11498}
     - Class: 114
-      Script: {instanceID: 11636}
+      Script: {instanceID: 11638}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11706}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11736}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11800}
     - Class: 114
-      Script: {instanceID: 11918}
+      Script: {instanceID: 11920}
     - Class: 114
-      Script: {instanceID: 11958}
+      Script: {instanceID: 11960}
+    - Class: 114
+      Script: {instanceID: 21556}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -937,6 +946,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Vehicles.Aeroplane
     className: AeroplaneAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManagerScript
   - hash:
       serializedVersion: 2
       Hash: 9d769865b0a15d77a9b273e159fe1a30
@@ -1676,4 +1691,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/GameOver.unity
   - Assets/Scenes/Level 2.unity
   - Assets/Scenes/LevelClear.unity
-  playerPath: C:/Users/William/Documents/Medieval Marks Test Builds/MedivalMarksman.exe
+  playerPath: C:/Users/freya/OneDrive/Documents/GitHub/Medieval-Marksman/MedivalMarksman
+    (1)/MedivalMarksman.exe
