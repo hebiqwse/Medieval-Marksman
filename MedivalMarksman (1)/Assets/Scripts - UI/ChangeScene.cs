@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class ChangeScene : MonoBehaviour
 {
-    public static AudioClip clickSound;
+    public static AudioClip clickSound, cheerSound;
     static AudioSource audioSrc;
 
     public void Start()
     {
         clickSound = Resources.Load<AudioClip>("click");
+        cheerSound = Resources.Load<AudioClip>("cheer");
         audioSrc = GetComponent<AudioSource>();
     }
     public void startGame()
@@ -44,15 +45,22 @@ public class ChangeScene : MonoBehaviour
     //Added by Freya Smith
     public void levelClear()
     {
+        cheer();
         SceneManager.LoadScene("LevelClear");
         ScoreCounterText.itemAmount = 0;
-        click();
+        
     }
 
     public void click()
     {
        
         audioSrc.clip = clickSound;
+        audioSrc.Play();
+    }
+
+    public void cheer()
+    {
+        audioSrc.clip = cheerSound;
         audioSrc.Play();
     }
 }
