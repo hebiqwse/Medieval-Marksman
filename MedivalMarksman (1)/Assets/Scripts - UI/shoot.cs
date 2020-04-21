@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class shoot : MonoBehaviour
 {
+
+
     [SerializeField]
     float pullSpeed;
     [SerializeField]
@@ -26,8 +28,9 @@ public class shoot : MonoBehaviour
         
         originalPos = new Vector3(bow.transform.position.x, bow.transform.position.y, bow.transform.position.z);
         Debug.Log(originalPos);
-      //  spawnArrow();
-        
+      
+        //  spawnArrow();
+
     }
 
     // Update is called once per frame
@@ -56,8 +59,8 @@ public class shoot : MonoBehaviour
             {
                
                 pullamount += Time.deltaTime * pullSpeed;
-                SoundManagerScript.PlaySound("bowFire");
                 bow.transform.Translate(0, -pullamount, 0);
+
                 
             }
 
@@ -69,4 +72,6 @@ public class shoot : MonoBehaviour
             }
         }
     }
+
+   
 }
