@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: ea51a3d455701b24eb8a12fc51ff2b79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2308424125875831988
+    second: Settings
+  - first:
+      213: 509657663631854901
+    second: Volume_Slider
+  - first:
+      213: -1549834867988845595
+    second: Buttons_SettingsMenu_15
+  - first:
+      213: -720585112844728543
+    second: Buttons_SettingsMenu_16
+  - first:
+      213: -7408261631505527344
+    second: Buttons_SettingsMenu_17
+  - first:
+      213: 5870825865157590745
+    second: Placeholder_Green_V
+  - first:
+      213: -7283584978307920811
+    second: Blue_Box
+  - first:
+      213: 8465670738594661695
+    second: Easy_Orange
+  - first:
+      213: 6613141434376083511
+    second: Normal_Orange
+  - first:
+      213: -2004660606317241685
+    second: Hard_Orange
+  - first:
+      213: -2494802386774067133
+    second: Easy_Green
+  - first:
+      213: 182270421664845057
+    second: Normal_Green
+  - first:
+      213: 7045227276932500716
+    second: Hard_Green
+  - first:
+      213: -7301419656641967901
+    second: Buttons_SettingsMenu_40
+  - first:
+      213: 4714858550641036409
+    second: Buttons_SettingsMenu_41
+  - first:
+      213: 5195979009453431579
+    second: Buttons_SettingsMenu_42
+  - first:
+      213: 2626106210539405502
+    second: Buttons_SettingsMenu_43
+  - first:
+      213: 8316758890471692803
+    second: Buttons_SettingsMenu_44
+  - first:
+      213: -2229606856948149642
+    second: Buttons_SettingsMenu_45
+  - first:
+      213: 6584399721586866595
+    second: Buttons_SettingsMenu_46
+  - first:
+      213: -3650636366645902841
+    second: Buttons_SettingsMenu_47
+  - first:
+      213: -1999582510476095861
+    second: Buttons_SettingsMenu_48
+  - first:
+      213: 6152915996709670150
+    second: Buttons_SettingsMenu_49
+  - first:
+      213: 6710089507947344933
+    second: Brightness_Slider
+  - first:
+      213: 3247146669673171346
+    second: Buttons_SettingsMenu_51
+  - first:
+      213: -8901325830293927697
+    second: Buttons_SettingsMenu_52
+  - first:
+      213: 5619451930826521551
+    second: Buttons_SettingsMenu_53
+  - first:
+      213: -3009844441939785298
+    second: Buttons_SettingsMenu_54
+  - first:
+      213: -8398773380173324560
+    second: Buttons_SettingsMenu_55
+  - first:
+      213: 1062746324900483846
+    second: Buttons_SettingsMenu_56
+  - first:
+      213: 3641137180520928396
+    second: Buttons_SettingsMenu_57
+  - first:
+      213: 5334879659702219702
+    second: Buttons_SettingsMenu_58
+  - first:
+      213: -1414802596707769998
+    second: Buttons_SettingsMenu_59
+  - first:
+      213: -5867061326304905731
+    second: Buttons_SettingsMenu_60
+  - first:
+      213: 7409163967275776936
+    second: Buttons_SettingsMenu_61
+  - first:
+      213: 8673946791903625888
+    second: Buttons_SettingsMenu_62
+  - first:
+      213: 7851207243368643355
+    second: Buttons_SettingsMenu_64
+  - first:
+      213: 140725296775505732
+    second: Buttons_SettingsMenu_65
+  - first:
+      213: 6107973764849935220
+    second: Placeholder_Green_B
+  - first:
+      213: 370831503410674961
+    second: Buttons_SettingsMenu_67
+  - first:
+      213: 5585500731100443619
+    second: Buttons_SettingsMenu_68
+  - first:
+      213: -4761436340106699958
+    second: Buttons_SettingsMenu_69
+  - first:
+      213: 5259999224080264298
+    second: Buttons_SettingsMenu_70
+  - first:
+      213: 91430832545302345
+    second: Buttons_SettingsMenu_71
+  - first:
+      213: 7914767191096060201
+    second: Buttons_SettingsMenu_72
+  - first:
+      213: -7062514774917259722
+    second: Buttons_SettingsMenu_73
+  - first:
+      213: -2197133450855970560
+    second: Buttons_SettingsMenu_74
+  - first:
+      213: -852030510659257373
+    second: Buttons_SettingsMenu_75
+  - first:
+      213: -2422599299680958450
+    second: Buttons_SettingsMenu_76
+  - first:
+      213: -951740928067912178
+    second: Buttons_SettingsMenu_77
+  - first:
+      213: 4698277969169274202
+    second: Buttons_SettingsMenu_78
+  - first:
+      213: -8041301000913608462
+    second: Buttons_SettingsMenu_79
+  - first:
+      213: 464412960239576696
+    second: Buttons_SettingsMenu_80
+  - first:
+      213: -8427394760018674582
+    second: Buttons_SettingsMenu_81
+  - first:
+      213: -4953857889861274285
+    second: On_Orange
+  - first:
+      213: 2743699225055876860
+    second: Off_Orange
+  - first:
+      213: 4176965027814141219
+    second: On_Green
+  - first:
+      213: 6853065057735328411
+    second: Off_Green
+  - first:
+      213: -5841150650577436201
+    second: Volume
+  - first:
+      213: 4598105966555177258
+    second: Buttons_SettingsMenu_0
+  - first:
+      213: -8185005219990267402
+    second: Brightness
+  - first:
+      213: 6057657534335877035
+    second: Sun_Left
+  - first:
+      213: 1236965648874551494
+    second: Sun_Right
+  - first:
+      213: -9114397778414825915
+    second: Buttons_SettingsMenu_1
+  - first:
+      213: 4865542893912569806
+    second: Slider_Knob
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Settings
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 747
+        width: 600
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d930421243483fb469c8523d0ed423f3
+      internalID: 2308424125875831988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volume_Slider
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 759
+        width: 440
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbad7de7e7b14ea4d91460e81ad703fd
+      internalID: 509657663631854901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder_Green_V
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 724
+        width: 113
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fea511e2c626e0469aa9e6b1a314491
+      internalID: 5870825865157590745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Box
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 75
+        width: 570
+        height: 605
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa0a2db8c7ef9d44996bcef89dee35e
+      internalID: -7283584978307920811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Easy_Orange
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 569
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9886ae4f5063e49803b77e7b777b8c
+      internalID: 8465670738594661695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal_Orange
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 570
+        width: 105
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d8739d818d4b1458940d936e6b573a
+      internalID: 6613141434376083511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard_Orange
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 569
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f646e4dcdb8249949b32aae5415675b2
+      internalID: -2004660606317241685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Easy_Green
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 473
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bded9941c440ba49a21195d2a5ac1c6
+      internalID: -2494802386774067133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Normal_Green
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 473
+        width: 105
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ce5b518738c134fa5013ae84963ccd
+      internalID: 182270421664845057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hard_Green
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 473
+        width: 75
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168b29b595bfa3b449f9455121a48f11
+      internalID: 7045227276932500716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brightness_Slider
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 338
+        width: 324
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079c04b42949fe446a9f69f4df441388
+      internalID: 6710089507947344933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Placeholder_Green_B
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 297
+        width: 208
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9bdaa1f14a4745b4121496f3abd80
+      internalID: 6107973764849935220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On_Orange
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 143
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f4a138deabf4d458d3fb3a63ce5543
+      internalID: -4953857889861274285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Off_Orange
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 143
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7997f16c59e652d44aad054ba99ec50e
+      internalID: 2743699225055876860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On_Green
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 73
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712cc69efc579c944a4a3e70eb361c29
+      internalID: 4176965027814141219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Off_Green
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 73
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13845f2300c152469c603940a6fa726
+      internalID: 6853065057735328411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Volume
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 804
+        width: 100
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047343dbb6188964389b016c4e6668c2
+      internalID: -5841150650577436201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_SettingsMenu_0
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 635
+        width: 120
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddd389c11fc65740832c518a0ed1d60
+      internalID: 4598105966555177258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brightness
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 376
+        width: 160
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ed22a299e152945839051e1027f8aa
+      internalID: -8185005219990267402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sun_Left
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 319
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32819f5b527e934888482401424f272
+      internalID: 6057657534335877035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sun_Right
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 318
+        width: 70
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5574590c0bb9db842bc12cd8a2bbe382
+      internalID: 1236965648874551494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_SettingsMenu_1
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 199
+        width: 240
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9768f0116ab2b47409c4bfc365713c00
+      internalID: -9114397778414825915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider_Knob
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 724
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f1154ca59f89649acef2052a67aec4
+      internalID: 4865542893912569806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fb38bd4f0d4251248ade92a67e0fdc2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
