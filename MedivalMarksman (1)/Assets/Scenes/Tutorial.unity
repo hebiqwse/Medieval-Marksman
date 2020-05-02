@@ -253,8 +253,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 76.8}
+  m_AnchoredPosition: {x: 213, y: 0}
+  m_SizeDelta: {x: 668.9, y: 154.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &22715190
 Animation:
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -305,7 +305,11 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'You have 10 arrows. 5 points awarded for hitting
 
-    outer white sections, 15 for middle brown ones.'
+    outer white sections, 15 for middle brown ones and
+
+    -45 for hitting animals.
+
+'
 --- !u!222 &22715192
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1769,7 +1773,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 213, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &520452882
@@ -1797,7 +1801,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -4708,7 +4712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 213, y: 0}
   m_SizeDelta: {x: 160, y: 76.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!111 &1280314408
@@ -4752,7 +4756,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -8783,11 +8787,6 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.7294118
       objectReference: {fileID: 0}
-    - target: {fileID: 1330840970456392447, guid: cb2b23407c42b3143b5595633e930830,
-        type: 3}
-      propertyPath: sign
-      value: 0.85
-      objectReference: {fileID: 0}
     - target: {fileID: 1330840971502081133, guid: cb2b23407c42b3143b5595633e930830,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8878,6 +8877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1330840970456392447, guid: cb2b23407c42b3143b5595633e930830,
+        type: 3}
+      propertyPath: sign
+      value: 0.85
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb2b23407c42b3143b5595633e930830, type: 3}
@@ -11819,11 +11823,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: FreeLookCameraRig
       objectReference: {fileID: 0}
-    - target: {fileID: 1326497481831571572, guid: f91aed8dedbfed54c8e65ec6179b787d,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6669743224528254623, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11879,16 +11878,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6669743224528254617, guid: f91aed8dedbfed54c8e65ec6179b787d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1745177862734613305, guid: f91aed8dedbfed54c8e65ec6179b787d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6669743222601502801, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -11920,11 +11909,6 @@ PrefabInstance:
       propertyPath: pullspeed
       value: 3000
       objectReference: {fileID: 0}
-    - target: {fileID: 3338565041887955950, guid: f91aed8dedbfed54c8e65ec6179b787d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8102451621478875563, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: shootforce
@@ -11936,11 +11920,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2533582192438986292, guid: f91aed8dedbfed54c8e65ec6179b787d,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5034354907986276193, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -11960,6 +11939,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.047
       objectReference: {fileID: 0}
+    - target: {fileID: 7254738723319122286, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 361570060702241720, guid: 6e4795955ba255447ad2cb110fb787f4,
+        type: 3}
     - target: {fileID: 6669743224539111259, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: m_TurnSpeed
@@ -11970,17 +11955,36 @@ PrefabInstance:
       propertyPath: m_LockCursor
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1745177862734613305, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6669743224528254617, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338565041887955950, guid: f91aed8dedbfed54c8e65ec6179b787d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4401002490883653772, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7254738723319122286, guid: f91aed8dedbfed54c8e65ec6179b787d,
+    - target: {fileID: 1326497481831571572, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 361570060702241720, guid: 6e4795955ba255447ad2cb110fb787f4,
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5034354907986276193, guid: f91aed8dedbfed54c8e65ec6179b787d,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7444522732678010090, guid: f91aed8dedbfed54c8e65ec6179b787d, type: 3}
     - {fileID: 2533582192438986292, guid: f91aed8dedbfed54c8e65ec6179b787d, type: 3}
